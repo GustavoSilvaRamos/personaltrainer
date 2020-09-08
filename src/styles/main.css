@@ -1,0 +1,47 @@
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+.fundo {
+  background-image: url(https://d1di2lzuh97fh2.cloudfront.net/files/0s/0sy/0syzib.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fundo2 {
+  background-image: url(https://d1di2lzuh97fh2.cloudfront.net/files/0s/0sy/0syzib.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title-header::after {
+  position: absolute;
+  height: 1px;
+  width: 10%;
+  bottom: -10px;
+  left: 50%;
+  content: ' ';
+  background-color: #333;
+  transform: translateX(-50%);
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+  outline: none !important;
+}
+
+.fab {
+  display: flex !important;
+}
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* Write you own custom component styles here */
+
+/* ESTILO VEM AQUI */
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
